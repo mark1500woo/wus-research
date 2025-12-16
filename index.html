@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WUS | 智能创造，引领未来</title>
+  <meta name="description" content="WUS 核心产品：DeepPBM（DP-Flame / DP-Engine）与无人小车。智能创造，引领未来。" />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="WUS Home">
+        <span class="brand__logo" aria-hidden="true">W</span>
+        <span class="brand__text">WUS</span>
+      </a>
+
+      <!-- ONLY horizontal nav -->
+      <nav class="nav" aria-label="Primary">
+        <a href="#home">首页</a>
+        <a href="#deeppbm">DeepPBM</a>
+        <a href="#robot">无人小车</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <div class="badge">WUS</div>
+          <h1>智能创造，<span class="grad">引领未来</span></h1>
+          <p class="lead">面向工业与能源领域的 AI + 多物理场仿真与智能巡检解决方案。</p>
+          <div class="cta">
+            <a class="btn primary" href="#deeppbm">查看核心产品</a>
+            <a class="btn" href="#contact">联系合作</a>
+          </div>
+          <div class="mini">
+            <div class="mini__item">
+              <div class="mini__k">DeepPBM</div>
+              <div class="mini__v">CFD-PBM 双向耦合 | MPM 求解器</div>
+            </div>
+            <div class="mini__item">
+              <div class="mini__k">无人小车</div>
+              <div class="mini__v">多传感器巡检 | AI + 数字孪生融合</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Cool graphic placeholder">
+          <div class="orb orb--a"></div>
+          <div class="orb orb--b"></div>
+          <div class="orb orb--c"></div>
+
+          <div class="glasscard">
+            <img src="assets/hero.png" alt="WUS hero image" />
+            <div class="gridlines" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS OVERVIEW -->
+    <section class="section">
+      <div class="container">
+        <h2>WUS 核心产品介绍</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Deep PBM</h3>
+            <p>自主可控的多物理场仿真工业软件，完整的科学体系，覆盖流动、燃烧、传热等众多领域。</p>
+            <a class="link" href="#deeppbm">了解更多 →</a>
+          </article>
+
+          <article class="card">
+            <h3>无人小车</h3>
+            <p>首款 <span class="mono">AI for Science</span> 落地小车，让机器人真正懂 Science。</p>
+            <a class="link" href="#robot">了解更多 →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEEPPBM -->
+    <section id="deeppbm" class="section alt">
+      <div class="container">
+        <div class="sectionhead">
+          <h2>DeepPBM</h2>
+          <p class="sub">以 CFD-PBM 双向耦合为核心，面向多相反应流与发动机燃烧的高精度、高效率仿真平台。</p>
+        </div>
+
+        <div class="cards two">
+          <article class="card big">
+            <div class="pill">DP-Flame</div>
+            <h3>CFD-PBM 双向耦合多相反应流仿真</h3>
+            <p>
+              DP-Flame 是一款基于 CFD-PBM 双向耦合技术的多相反应流仿真软件，
+              内置自主开发的 MPM 求解器以及 PINN-PSD 重构算法等，相较传统 CFD 软件来说具有高精度、
+              高计算效率等优点。软件还开发了高效的可视化引擎、数据后处理等功能，
+              以满足数值仿真前、后处理功能需求。
+            </p>
+            <div class="list">
+              <div class="li"><span>应用场景</span>预混自由发展火焰、对冲火焰、层流滞止火焰等条件下的碳烟颗粒生成与纳米颗粒合成快速精确仿真。</div>
+              <div class="li"><span>亮点</span>MPM 求解器 | PINN-PSD 重构 | 高效可视化与后处理</div>
+            </div>
+
+            <div class="product-gallery">
+              <img src="assets/flame-1.png" alt="DP-Flame 示例 1" />
+              <img src="assets/flame-2.png" alt="DP-Flame 示例 2" />
+            </div>
+          </article>
+
+          <article class="card big">
+            <div class="pill">DP-Engine</div>
+            <h3>多面体非结构网格发动机燃烧仿真</h3>
+            <p>
+              DP-Engine 是一款基于多面体非结构网格与有限体积法的发动机燃烧仿真软件，
+              内置自主开发的多相流模型和求解器，以及丰富的湍流模型、燃烧模型、热辐射模型、排放模型和动网格模块等，
+              并含有丰富的燃油机理库。
+            </p>
+            <div class="list">
+              <div class="li"><span>应用场景</span>RCCI、CI、PCCI 等燃烧模式的燃烧排放仿真；快压机、喷雾燃烧等场景模拟。</div>
+              <div class="li"><span>亮点</span>湍流/燃烧/辐射/排放模型 | 动网格 | 机理库</div>
+            </div>
+
+            <div class="product-gallery">
+              <img src="assets/engine-1.png" alt="DP-Engine 示例 1" />
+              <img src="assets/engine-2.png" alt="DP-Engine 示例 2" />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROBOT -->
+    <section id="robot" class="section">
+      <div class="container">
+        <div class="sectionhead">
+          <h2>无人小车</h2>
+          <p class="sub">面向复杂环境的移动式多传感器巡检与数据采集平台。</p>
+        </div>
+
+        <div class="cards">
+          <article class="card big">
+            <h3>无人小车介绍</h3>
+            <p class="muted">To be added…（此处留作你后续补充：硬件配置、传感器、续航、定位方案、通信方式等）</p>
+          </article>
+
+          <article class="card big">
+            <h3>应用场景</h3>
+            <p>
+              适用于环境复杂、任务重复、人工成本高或存在安全风险的场景，尤其在工业与能源领域应用最为成熟，
+              如电厂、化工园区、冶金装置、矿山和变电站中，可替代人工完成设备巡检、状态监测、
+              气体泄漏检测与红外测温等工作；同时也广泛应用于仓储物流中的物料运输与调度、
+              公共安全与应急场景下的灾害巡查与救援支撑，以及园区和市政设施的日常巡检。
+              在更高层面上，无人小车还可作为移动式多传感器数据采集平台，与人工智能和数字孪生系统深度融合，
+              为设备健康评估、能耗优化和智能决策提供连续、可靠的数据支撑。
+            </p>
+          </article>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery__card">
+            <img class="gallery__img" src="assets/robot-1.png" alt="无人小车 1" />
+            <div class="gallery__cap">无人小车 1</div>
+          </div>
+          <div class="gallery__card">
+            <img class="gallery__img" src="assets/robot-2.png" alt="无人小车 2" />
+            <div class="gallery__cap">无人小车 2</div>
+          </div>
+          <div class="gallery__card">
+            <img class="gallery__img" src="assets/robot-3.png" alt="无人小车 3" />
+            <div class="gallery__cap">无人小车 3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container contact">
+        <div class="contact__left">
+          <h2>联系我们</h2>
+          <p class="sub">欢迎交流合作：工业仿真软件、AI for Science、数字孪生与智能巡检。</p>
+
+          <div class="contact__rows">
+            <div class="contact__row">
+              <div class="contact__k">电话</div>
+              <a class="contact__v" href="tel:+8618736673099">187 3667 3099</a>
+            </div>
+            <div class="contact__row">
+              <div class="contact__k">邮箱</div>
+              <a class="contact__v" href="mailto:wushaohua01@gmail.com">wushaohua01@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__right">
+          <div class="imgbox">
+            <img class="imgbox__img" src="assets/contact.png" alt="联系方式图片" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>© <span id="year"></span> WUS</div>
+        <div class="footer__links">
+          <a href="#home">Top</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
