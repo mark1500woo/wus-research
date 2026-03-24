@@ -9,6 +9,9 @@ This package:
 - force-hides any element matching .mobilemenu / #mobilemenu via CSS
 - adds cache-busting query params (?v=2) to CSS/JS links
 
+Shaohua Test:
+- This is a test if git works properly. Can be deleted anytime.
+
 ## Local preview
 python3 -m http.server 8000
 Open http://localhost:8000
